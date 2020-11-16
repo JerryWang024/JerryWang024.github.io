@@ -1305,7 +1305,7 @@ canvas:not(#ribbon-canvas),
   --tab-button-active-bg: #fff;
   --card-bg: #fff;
   --sidebar-bg: #f6f8fa;
-  --btn-hover-color: #ff7242;
+  --btn-hover-color: #49b1f5;
   --btn-color: #fff;
   --btn-bg: #ff3030;
   --text-bg-hover: #ff3030;
@@ -1426,7 +1426,7 @@ table td {
   vertical-align: middle;
 }
 *::selection {
-  background: #00c4b6;
+  background: #ff3030;
   color: #f7f7f7;
 }
 button {
@@ -1819,7 +1819,7 @@ blockquote footer cite:before {
   font-size: 1.72em;
 }
 .article-sort-title:hover:before {
-  border-color: #ff7242;
+  border-color: #49b1f5;
 }
 .article-sort-title:before {
   position: absolute;
@@ -1871,7 +1871,7 @@ blockquote footer cite:before {
   transition: all 0.2s ease-in-out;
 }
 .article-sort-item:hover:before {
-  border-color: #ff7242;
+  border-color: #49b1f5;
 }
 .article-sort-item:before {
   position: absolute;
@@ -1901,7 +1901,7 @@ blockquote footer cite:before {
   border-color: #ff3030;
 }
 .article-sort-item.year:before {
-  border-color: #ff7242;
+  border-color: #49b1f5;
 }
 .article-sort-item-time {
   color: #858585;
@@ -2025,7 +2025,7 @@ blockquote footer cite:before {
   content: '';
 }
 #page .category-lists ul li:hover:before {
-  border-color: #ff7242;
+  border-color: #49b1f5;
 }
 .layout {
   display: -webkit-box;
@@ -2791,8 +2791,8 @@ blockquote footer cite:before {
   transition: all 0.2s ease-in-out;
 }
 #aside_content #card-toc .toc-content .toc-link.active {
-  border-left-color: #009d92;
-  background: #00c4b6;
+  border-left-color: #f20000;
+  background: #ff3030;
   color: #fff;
 }
 #aside_content #card-toc .toc-content:before {
@@ -3505,7 +3505,7 @@ _:future,
   cursor: pointer;
 }
 #pagination .page-number.current {
-  background: #00c4b6;
+  background: #ff3030;
   color: var(--white);
   cursor: default;
 }
@@ -3796,7 +3796,7 @@ _:future,
   padding: 0.2em 0.2em 0.2em 1.4em;
 }
 #article-container ul > li:not(.tab):hover:before {
-  border-color: #ff7242;
+  border-color: #49b1f5;
 }
 #article-container ul > li:not(.tab):before {
   top: 0.78em;
